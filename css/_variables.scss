@@ -1,0 +1,17 @@
+$font-main: "Mozilla Headline", sans-serif;
+$font-title: "Dancing Script", cursive;
+
+$colors: (
+  bg: #f0f1f5,
+  card: #b5b7ca,
+  circle: #35384b,
+  accent: #4a4e69,
+  text: black,
+  shadow: rgba(0, 0, 0, 0.4)
+);
+
+$shadow: 0 10px 30px map-get($colors, shadow);
+
+
+$padding-main: 15px;
+$border-radius: 15px;
