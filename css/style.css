@@ -93,7 +93,7 @@ main {
   color: black !important;
   border-radius: 15px !important;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4) !important;
-  font-weight: boldS !important;
+  font-weight: bold !important;
   border: none !important;
   transition: background 0.2s;
 }
@@ -129,4 +129,50 @@ main {
     text-align: left;
     margin: 4em 0 0 4em;
   }
+}
+body.dark-mode {
+  background-color: #23243a;
+  color: #f0f1f5;
+}
+body.dark-mode .bg {
+  background-color: #22223b;
+}
+body.dark-mode .card {
+  background-color: #35384b !important;
+  color: #f0f1f5 !important;
+}
+body.dark-mode .card ul li .circulo {
+  background-color: #b5b7ca !important;
+}
+body.dark-mode .card ul li strong {
+  color: #f0f1f5 !important;
+}
+body.dark-mode .primary {
+  color: #f0f1f5;
+}
+body.dark-mode .primary h1 {
+  color: #f0f1f5;
+  text-shadow: 10px 8px 15px #23243a;
+}
+body.dark-mode .primary p {
+  color: #f0f1f5;
+}
+body.dark-mode .primary a {
+  background-color: #35384b;
+  color: #f0f1f5;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+}
+body.dark-mode .btn-queen {
+  background-color: #35384b !important;
+  color: #f0f1f5 !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7) !important;
+}
+body.dark-mode .btn-queen:hover, body.dark-mode .btn-queen:focus {
+  background-color: #22223b !important;
+  color: #fff !important;
+}
+body.dark-mode .btn-secondary {
+  background-color: #35384b !important;
+  color: #f0f1f5 !important;
+  border: none !important;
 }/*# sourceMappingURL=style.css.map */

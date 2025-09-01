@@ -3,3 +3,57 @@
 @import 'mixin';
 @import 'principal';
 @import 'media';
+
+body.dark-mode {
+  background-color: #23243a;
+  color: #f0f1f5;
+
+  .bg {
+    background-color: #22223b;
+  }
+
+  .card {
+    background-color: #35384b !important;
+    color: #f0f1f5 !important;
+
+    ul li .circulo {
+      background-color: #b5b7ca !important;
+    }
+    ul li strong {
+      color: #f0f1f5 !important;
+    }
+  }
+
+  .primary {
+    color: #f0f1f5;
+
+    h1 {
+      color: #f0f1f5;
+      text-shadow: 10px 8px 15px #23243a;
+    }
+    p {
+      color: #f0f1f5;
+    }
+    a {
+      background-color: #35384b;
+      color: #f0f1f5;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.7);
+    }
+  }
+
+  .btn-queen {
+    background-color: #35384b !important;
+    color: #f0f1f5 !important;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.7) !important;
+  }
+  .btn-queen:hover, .btn-queen:focus {
+    background-color: #22223b !important;
+    color: #fff !important;
+  }
+
+  .btn-secondary {
+    background-color: #35384b !important;
+    color: #f0f1f5 !important;
+    border: none !important;
+  }
+}
