@@ -26,7 +26,7 @@
 <body>
 
     <div class="bg"></div>
-    <main>
+    <main>  
         <section class="card">
             <ul>
                 <li>
@@ -50,14 +50,29 @@
                    <!-- boton agregado con bootstrap -->
 
             <div class="d-grid">
-            <button class="btn btn-warning btn-lg" type="button">Saber más...</button>
-            
+                <button class="btn btn-warning btn-lg btn-queen" type="button" data-bs-toggle="modal" data-bs-target="#queenModal">
+                    Saber más...
+                </button>
             </div>
 
          
         </section>
     </main>
-
+<div class="modal fade" id="queenModal" tabindex="-1" aria-labelledby="queenModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="queenModalLabel">👑 Queen Studio - Arquitectura con carácter</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+        En Queen Studio creemos que la arquitectura no solo construye espacios, sino también experiencias. Somos un estudio que combina diseño contemporáneo, sensibilidad estética y soluciones funcionales para crear obras que dialogan con su entorno y con quienes las habitan.
+        <br><br>
+        Cada proyecto que abordamos es una oportunidad para contar una historia única. Desde viviendas que reflejan la personalidad de sus habitantes, hasta espacios comerciales que potencian marcas y experiencias, trabajamos con pasión, precisión y una mirada estratégica.
+      </div>
+    </div>
+  </div>
+</div>
 
 
 <!-- enlace js bootstrap -->

@@ -86,3 +86,19 @@ main {
     text-align: center;
   }
 }
+
+.btn-queen {
+  background-color: map-get($colors, card) !important;
+  color: map-get($colors, text) !important;
+  border-radius: $border-radius !important;
+  box-shadow: $shadow !important;
+  font-weight: bold !important;
+  border: none !important;
+  transition: background 0.2s;
+
+  &:hover,
+  &:focus {
+    background-color: map-get($colors, accent) !important;
+    color: #fff !important;
+  }
+}
